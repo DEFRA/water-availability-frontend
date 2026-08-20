@@ -69,6 +69,11 @@ describe('context and cache', () => {
               current: false,
               text: 'About',
               href: '/about'
+            },
+            {
+              current: false,
+              text: 'Integration',
+              href: '/integration'
             }
           ],
           serviceName: 'water-availability-frontend',
@@ -158,6 +163,11 @@ describe('context and cache', () => {
               current: false,
               text: 'About',
               href: '/about'
+            },
+            {
+              current: false,
+              text: 'Integration',
+              href: '/integration'
             }
           ],
           serviceName: 'water-availability-frontend',

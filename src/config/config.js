@@ -107,6 +107,20 @@ export const config = convict({
     default: null,
     env: 'HTTP_PROXY'
   },
+  services: {
+    backendBaseUrl: {
+      doc: 'Base URL for backend service',
+      format: String,
+      default: 'http://localhost:3001',
+      env: 'BACKEND_BASE_URL'
+    },
+    backendStatusTimeoutMs: {
+      doc: 'Timeout in milliseconds for backend status fetch',
+      format: 'nat',
+      default: 3000,
+      env: 'BACKEND_STATUS_TIMEOUT_MS'
+    }
+  },
   isSecureContextEnabled: {
     doc: 'Enable Secure Context',
     format: Boolean,
