@@ -1,4 +1,4 @@
-import { startServer } from '#/server/common/helpers/start-server.js'
+import { createServer } from '#/server/server.js'
 import { statusCodes } from '#/server/common/constants/status-codes.js'
 
 describe('#serveStaticFiles', () => {
@@ -6,7 +6,7 @@ describe('#serveStaticFiles', () => {
 
   describe('When secure context is disabled', () => {
     beforeEach(async () => {
-      server = await startServer()
+      server = await createServer()
     })
 
     afterEach(async () => {

@@ -107,6 +107,13 @@ To run the application in `development` mode run:
 npm run dev
 ```
 
+For local integration testing, use:
+
+- `BACKEND_BASE_URL` (default `http://localhost:3001`)
+
+Then open `/integration` in the frontend to check backend-composed integration
+status (including aggregator reachability).
+
 ### Production
 
 To mimic the application running in `production` mode locally run:
