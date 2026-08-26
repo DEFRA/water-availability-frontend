@@ -202,8 +202,12 @@ docker compose up --build -d
 
 ### Dependabot
 
-We have added an example dependabot configuration file to the repository. You can enable it by renaming
-the [.github/example.dependabot.yml](.github/example.dependabot.yml) to `.github/dependabot.yml`
+Dependabot checks npm dependencies and GitHub Actions weekly and may open grouped pull requests. Review each update
+before merging and confirm that tests, linting, and security checks pass.
+
+When investigating a Dependabot pull request locally, use `npm ci` to preserve the versions in its
+`package-lock.json`. After merging runtime dependency changes, deploy through the normal CDP process and smoke-test
+the service.
 
 ### SonarCloud
 
