@@ -54,7 +54,7 @@
     "cssnano": "8.0.9",
     "cssnano-preset-default": "8.0.9",
     "date-fns": "4.4.0",
-    "govuk-frontend": "6.2.0",
+    "govuk-frontend": "6.4.0",
     "hapi-pino": "13.0.0",
     "hapi-pulse": "4.0.0",
     "ioredis": "5.8.2",
