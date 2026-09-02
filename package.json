@@ -52,7 +52,7 @@
     "convict": "6.2.5",
     "convict-format-with-validator": "6.2.0",
     "cssnano": "8.0.9",
-    "cssnano-preset-default": "7.0.13",
+    "cssnano-preset-default": "8.0.9",
     "date-fns": "4.4.0",
     "govuk-frontend": "6.2.0",
     "hapi-pino": "13.0.0",
