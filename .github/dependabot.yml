@@ -38,6 +38,7 @@ updates:
           - 'husky'
           - 'vitest'
           - 'vitest-*'
+          - '@vitest/*'
           - 'nodemon'
           - 'npm-run-all'
           - 'lodash'
