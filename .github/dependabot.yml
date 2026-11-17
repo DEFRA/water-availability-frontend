@@ -53,6 +53,9 @@ updates:
     ignore:
       - dependency-name: 'eslint-*'
       - dependency-name: 'eslint'
+      - dependency-name: 'stylelint'
+        update-types:
+          - 'version-update:semver-major'
 
     # Schedule run every Monday, local time
     schedule:
